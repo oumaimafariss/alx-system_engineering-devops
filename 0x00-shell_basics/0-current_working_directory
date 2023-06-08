@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#current directory 
+
+current_dir=$(pwd)
+
+#like the difinition
+
+absolute_path=$(the realpath "$current_dir")
+
+echo "Current directory: $absolute_path"
